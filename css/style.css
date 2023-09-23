@@ -1,0 +1,72 @@
+.background-container {
+    background-image: url("https://img.freepik.com/free-photo/cosmetics-product-advertising-stand-exhibition-wooden-podium-green-background-with-leaves-sha_1258-170138.jpg?t=st=1695045153~exp=1695048753~hmac=edf5dfd29d4c5f5ded6e5a35212caf7b57a117198628db2366e1da88463edc2d&w=826");
+    height: 100vh;
+    background-size: cover;
+
+}
+.fashion-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.favouriteplacebg-container {
+    background-image: url("https://img.freepik.com/free-photo/fog-dark-clouds-mountains_1204-503.jpg?w=900&t=st=1695214362~exp=1695214962~hmac=5e8a5830dc09bbd1a46407ac54e7c2aea24575836241f22a11a5345d68ec9ab1");
+    background-size: cover;
+}
+.main-heading {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 38px;
+    font-style: italic;
+}
+.favouriteplace-card-container {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 16px;
+}
+.favoriteplace-card-heading {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.favoriteplace-card-image {
+    height: 120px;
+    width: 130px;
+}
+
+.detailedviewbg-container {
+    background-image: url("https://img.freepik.com/free-photo/clean-cascade-scenery-green-shore-tourism_1417-1353.jpg?w=360&t=st=1695312973~exp=1695313573~hmac=bef4d68c899a2186fb6aef74d498eaf18fd64518095ed90859d53e32669f73e8");
+    background-size: cover;
+
+}
+.detailedviewmain-heading {
+    color: white;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+}
+.card-container {
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 35px;
+}
+.card-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+.paragraph {
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+.text-container {
+    padding: 10px;
+}

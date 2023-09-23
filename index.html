@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="sectionHome">
+            <div class="background-container d-flex flex-column justify-content-end">
+                <div class="fashion-card">
+                    <h1> India Tourism</h1>
+                    <p>
+                        plan your trip. wherever you want to go
+                    </p>
+                    <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Get started</button>
+                </div>
+            </div>   
+        </div>
+        <div id="sectionFavouriteplaces">
+            <div class="favouriteplacebg-container">
+                <h1 class="main-heading">Faveurite places</h1>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionTajmahaldetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">Taj mahal</h1>
+                        <p>
+                            The Taj Mahal is a magnificent white marble mausoleum located in Agra, 
+                            India, built by the Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.
+                            It is considered one of the most iconic and beautiful architectural wonders in the world, 
+                            known for its intricate design and rich history.
+                        </p>
+                    </div>
+                    <img src="https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?size=626&ext=jpg&uid=R116989314&ga=GA1.2.2084330140.1695034425&semt=ais" class="favoriteplace-card-image"/>
+                </div>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionKeraladetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">Kerala</h1>
+                        <p>
+                            Kerala, a southwestern state in India, is renowned for its lush green landscapes,
+                            tranquil backwaters, and vibrant culture. Often referred to as "God's Own Country,
+                            " Kerala attracts tourists with its stunning natural beauty and diverse traditions.
+                        </p>
+                    </div>
+                    <img src="https://www.ekeralatourism.net/wp-content/uploads/2018/03/Kumarakom.jpg" class="favoriteplace-card-image"/>
+                </div>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionKashmirdetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">Kashmir</h1>
+                        <p>
+                            Kashmir, often called "Paradise on Earth," boasts breathtaking natural beauty with
+                            serene lakes like Dal Lake and pristine valleys such as Gulmarg. Its snow-capped mountains, 
+                            like those in Sonmarg, make it a captivating destination for travelers seeking scenic wonders.
+                        </p>
+                    </div>
+                    <img src="https://img.freepik.com/free-photo/beautiful-shot-small-village-surrounded-by-lake-snowy-hills_181624-37802.jpg?size=626&ext=jpg&uid=R116989314&ga=GA1.2.2084330140.1695034425&semt=sph" class="favoriteplace-card-image"/>
+                </div>
+                <div class="favouriteplace-card-container d-flex flex-row" onclick="display('sectionVaranasidetailedview')">
+                    <div>
+                        <h1 class="favoriteplace-card-heading">Varanasi</h1>
+                        <p>
+                            Varanasi, one of the world's oldest continuously inhabited cities, is a spiritual hub on 
+                            the banks of the Ganges River, known for its ancient temples and vibrant ghats. 
+                            It is a place of pilgrimage, cultural richness, and deep spiritual significance in India.
+                        </p>
+                    </div>
+                    <img src="https://img.freepik.com/free-photo/ancient-ruins-angkor-majestic-spirituality-praying-generated-by-ai_188544-35475.jpg?t=st=1695225235~exp=1695228835~hmac=ec44db5c33acce2fc3b8990f8fa4cb858f6102d2752a11a2ec5915736c1c8796&w=1060" class="favoriteplace-card-image"/>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+            </div>
+        </div>
+        <div id="sectionTajmahaldetailedview">
+            <div class="detailedviewbg-container">
+                <h1 class="detailedviewmain-heading">Detailed View</h1>
+                <div class="card-container">
+                    <div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/665AHTNpf2o?rel=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+                        <div class="text-container">
+                            <h1 class="card-heading">Taj Mahal</h1>
+                            <p class="paragraph">
+                                The Taj Mahal, a UNESCO World Heritage Site, is an iconic symbol of India's rich cultural heritage.
+                                Built in the 17th century by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, this 
+                                magnificent white marble mausoleum is renowned for its breathtaking architectural beauty and intricate 
+                                craftsmanship. The Taj Mahal's symmetrical design, with its stunning domed central structure 
+                                and four elegant minarets, stands as a testament to Mughal architecture's brilliance. 
+                                Visitors from around the world flock to Agra to marvel at the Taj Mahal's ethereal beauty,
+                                which seems to change its hue with the shifting sunlight throughout the day. 
+                                This enduring symbol of love continues to capture the hearts of millions, making it one of the 
+                                most recognized and cherished landmarks on the planet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Previous</button>
+        </div>
+        <div id="sectionKeraladetailedview">
+                <div class="card-container">
+                    <div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yLE5bDX7M3Y?rel=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+                        <div class="text-container">
+                            <h1 class="card-heading">Kerala</h1>
+                            <p class="paragraph">
+                                Kerala, known as "God's Own Country," is a lush green paradise in southern India.
+                                Its serene backwaters, palm-fringed beaches, and misty hill stations make it a top
+                                tourist destination. With a rich cultural heritage, vibrant festivals, and delectable
+                                cuisine, Kerala offers a unique blend of natural beauty and cultural diversity that captivates travelers from around the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Previous</button>
+        </div>
+        <div id="sectionKashmirdetailedview">
+                <div class="card-container">
+                    <div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qmGYnJgCW1o?rel=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+                        <div class="text-container">
+                            <h1 class="card-heading">Kashmir</h1>
+                            <p class="paragraph">
+                                Kashmir, often referred to as "Paradise on Earth," boasts a plethora 
+                                of breathtakingly beautiful places. The iconic Dal Lake, surrounded by 
+                                pristine mountains and adorned with houseboats, is a symbol of its beauty. 
+                                The enchanting valleys of Pahalgam and Gulmarg offer lush green landscapes 
+                                and pristine snowscapes, making them ideal for both summer and winter getaways.
+                                The ethereal beauty of Sonmarg with its glaciers and meadows completes the picture
+                                of Kashmir's unparalleled natural splendor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Previous</button>
+        </div>
+        <div id="sectionVaranasidetailedview">
+                <div class="card-container">
+                    <div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/rDsOi3MByCI?rel=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+                        <div class="text-container">
+                            <h1 class="card-heading">Varanasi</h1>
+                            <p class="paragraph">
+                                Varanasi, one of the world's oldest continuously inhabited cities, 
+                                is a spiritual and cultural hub in northern India. Nestled on the banks of 
+                                the sacred Ganges River, it's a place of pilgrimage for Hindus who come to 
+                                cleanse their sins in its holy waters. The city's narrow winding lanes are dotted 
+                                with ancient temples, vibrant ghats, and bustling markets, offering a glimpse into India's 
+                                rich traditions. Varanasi's spiritual aura, divine rituals, and mesmerizing Ganga Aarti 
+                                ceremonies make it a truly unique and spiritually enriching destination.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionFavouriteplaces')">Previous</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+</html>
